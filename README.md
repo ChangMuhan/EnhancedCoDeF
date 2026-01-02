@@ -47,7 +47,7 @@ You can download checkpoints pre-trained on the provided video via
 
 | Video Name | Config |                           Download                           |
 | :-------- | :----: | :----------------------------------------------------------: |
-| tennis-vest | configs/base.yaml |  [Google drive link]([https://drive.google.com/file/d/1jbVXusAzxLsW2iIoULv76ZdH0MGtA5Ml/view?usp=drive_link] |
+| tennis-vest | configs/base.yaml |  [Google drive link](https://drive.google.com/file/d/1jbVXusAzxLsW2iIoULv76ZdH0MGtA5Ml/view?usp=drive_link) |
 
 
 And organize files as follows
