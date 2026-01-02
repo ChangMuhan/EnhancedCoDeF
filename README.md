@@ -34,9 +34,11 @@ for Pytorch extension install instructions.
 
 
 ## Data
-Our model is trained on **single videos**. And the videos are selected from DAVIS 2017 dataset.
+1. Our model is trained on **single videos**. And the videos are selected from DAVIS 2017 dataset.
 
 We prepared a video in `./videos/tennis-vest/` for training and evaluating.
+
+2. We extract optical flows of video sequences using [RAFT](https://github.com/princeton-vl/RAFT). To get started, please follow the instructions provided [here](https://github.com/princeton-vl/RAFT#demos) to download their pretrained model. Once downloaded, place the model in the `data_preprocessing/RAFT/models` folder (we use 'raft-sintel.pth' here).
 
 
 ## Pretrained checkpoints
@@ -45,7 +47,7 @@ You can download checkpoints pre-trained on the provided video via
 
 | Video Name | Config |                           Download                           |
 | :-------- | :----: | :----------------------------------------------------------: |
-| tennis-vest | configs/base.yaml |  [Google drive link](https://drive.google.com/file/d/11SWfnfDct8bE16802PyqYJqsU4x6ACn8/view?usp=sharing) |
+| tennis-vest | configs/base.yaml |  [Google drive link]([https://drive.google.com/file/d/11SWfnfDct8bE16802PyqYJqsU4x6ACn8/view?usp=sharing](https://drive.google.com/file/d/1jbVXusAzxLsW2iIoULv76ZdH0MGtA5Ml/view?usp=drive_link)) |
 
 
 And organize files as follows
