@@ -4,7 +4,7 @@
 
 Improvements to [**CoDeF: Content Deformation Fields for Temporally Consistent Video Processing**](https://github.com/ant-research/CoDeF/) (CVPR 2024)
 
-
+<img src='./demo.gif'></img>
 
 ## Requirements
 
